@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Número Oculto</title>
+</head>
+<body>
+    <div class="content">
+        <h1>Descobrir o número de 1 a 100</h1>
+        <input type="number" placeholder="Digite um número" id="bet">
+        <button id="submit">Enviar</button>
+        <p id="message"></p>
+        <p id="attempts">Tentativas: 0</p>
+        <img id="reward" src="https://i.pinimg.com/736x/99/e1/0c/99e10ccf7cd448c7edc95337986f443c.jpg" alt="Gratificação">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
